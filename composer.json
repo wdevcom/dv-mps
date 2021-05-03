@@ -1,0 +1,20 @@
+{
+    "name": "wdevcom/dv-mps",
+    "version": "0.2.1",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adam Jurek",
+            "email": "adam.jurek@digitalvirgo.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigitalVirgo\\MPS\\": "src/"
+        }
+    }
+}
